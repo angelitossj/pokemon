@@ -1,6 +1,6 @@
 .pokemon-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display:grid;
+    grid-template-columns: 1fr 25fr 10fr;
     gap: 30px;
     width: 80%;
     margin-left: auto;
@@ -9,3 +9,20 @@
     margin-top: 20px;
   }
   
+  body{
+   background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,253,220,1) 50%, rgba(252,176,69,1) 100%);;
+  }
+  
+  .img{
+
+    padding: 10px;
+    
+    transition: transform .2s; 
+    width: 220px;
+    height: 220px;
+    margin: 0 auto;
+  }
+  .img:hover{
+    transform: scale(1.5)
+  }

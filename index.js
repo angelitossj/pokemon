@@ -53,4 +53,4 @@ function crearPokemon (pokemon){
 
   container.appendChild(tarjeta)
 }
-pokemones(15)
+pokemones(26)
